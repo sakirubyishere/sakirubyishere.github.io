@@ -21,6 +21,7 @@ import initPageFocus from "./theme/focus.js";
 import initMouse from "./theme/tools/mouse.js";
 import initSearch from "./theme/search.js";
 
+
 const initMain = () => {
   const main = () => {
     // initSwup();
