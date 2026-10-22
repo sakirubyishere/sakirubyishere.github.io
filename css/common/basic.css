@@ -51,7 +51,7 @@ body[bg-style='fixed']:before {
   background-image: var(--banner-background);
   background-size: cover;
   background-position: center top;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   animation: show-ease 0.3s ease-in;
   transition: background-image 0.3s ease-in, filter 0.3s ease-in;
 }

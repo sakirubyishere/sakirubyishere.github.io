@@ -638,7 +638,7 @@ body[bg-style='fixed']:before {
   background-image: var(--banner-background);
   background-size: cover;
   background-position: center top;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   animation: show-ease 0.3s ease-in;
   transition: background-image 0.3s ease-in, filter 0.3s ease-in;
 }
@@ -1898,7 +1898,7 @@ body[data-mode="dark"] .home-article-info .icon {
   background: var(--banner-background);
   background-size: cover;
   background-position: center top;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 #home-banner-info {
   position: absolute;
@@ -1943,7 +1943,7 @@ body[data-mode="dark"] .home-article-info .icon {
   background: var(--banner-background);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   user-select: none;
   transition: background 0.35s ease-in;
   display: flex;
